@@ -8,16 +8,19 @@ void setup() {
 }
 
 void action1(){
-  Serial.print("PLAYER 1 was first! Time from start: ");
-  Serial.println(millis());
+  Serial.println("#PLAYER 1 was first!#");
+  Serial.println("######################");
+  //Serial.println(millis());
 }
 void action2(){
-  Serial.print("PLAYER 2 was first! Time from start: ");
-  Serial.println(millis());
+  Serial.println("#PLAYER 2 was first!#");
+  Serial.println("######################");
+  //Serial.println(millis());
 }
 void action3(){
-  Serial.print("PLAYER 3 was first! Time from start: ");
-  Serial.println(millis());
+  Serial.println("#PLAYER 3 was first!#");
+  Serial.println("######################");
+  //Serial.println(millis());
 }
 
 void loop() {
